@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iruna", "iruna\iruna.vcproj", "{6E093330-F2AD-450F-AF0A-94686FE9B81C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model_conberter", "model_conberter\model_conberter.vcproj", "{FD51B50E-6F6B-4F7D-90C1-BEBF913F8932}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E093330-F2AD-450F-AF0A-94686FE9B81C} = {6E093330-F2AD-450F-AF0A-94686FE9B81C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E093330-F2AD-450F-AF0A-94686FE9B81C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E093330-F2AD-450F-AF0A-94686FE9B81C}.Debug|Win32.Build.0 = Debug|Win32
+		{6E093330-F2AD-450F-AF0A-94686FE9B81C}.Release|Win32.ActiveCfg = Release|Win32
+		{6E093330-F2AD-450F-AF0A-94686FE9B81C}.Release|Win32.Build.0 = Release|Win32
+		{FD51B50E-6F6B-4F7D-90C1-BEBF913F8932}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD51B50E-6F6B-4F7D-90C1-BEBF913F8932}.Debug|Win32.Build.0 = Debug|Win32
+		{FD51B50E-6F6B-4F7D-90C1-BEBF913F8932}.Release|Win32.ActiveCfg = Release|Win32
+		{FD51B50E-6F6B-4F7D-90C1-BEBF913F8932}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
